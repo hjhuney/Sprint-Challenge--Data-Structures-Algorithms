@@ -4,8 +4,15 @@ class BinarySearchTree:
     self.left = None
     self.right = None
 
+# couldn't figure this out
   def depth_first_for_each(self, cb):
-    pass    
+    visited = []
+    stack = self
+    
+    while stack:
+      vertex = stack 
+      if vertex not in visited: 
+        visited.add(vertex)
 
   def breadth_first_for_each(self, cb):
     pass
